@@ -1,0 +1,1 @@
+{"version":3,"sources":["one.js"],"names":["setTime","aa","console","log"],"mappings":"AAAA,SAASA,UACR,IAAIC,EAAK,EACNA,EAAG,IACLC,QAAQC,IAAIF,GACZA,KAEAA,EAAK","file":"one.js","sourcesContent":["function setTime(){\r\n\tvar aa = 0;\r\n\tif(aa<10){\r\n\t\tconsole.log(aa);\r\n\t\taa--;\r\n\t}else{\r\n\t\taa = 15;\r\n\t}\r\n}"]}

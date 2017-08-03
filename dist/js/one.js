@@ -1,0 +1,1 @@
+function setTime(){var o=0;o<10?(console.log(o),o--):o=15}

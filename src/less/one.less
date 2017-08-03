@@ -1,0 +1,27 @@
+@nice-blue:"#dedede";
+
+#header{
+	color:@nice-blue;
+}
+
+
+#header{
+	color:black;
+	.navigation{
+		font-size:12px;
+	}
+	.logo{
+		width:300px;
+	}
+}
+
+.clearfix{
+	display:block;
+	zoom:1;
+	&:after{
+		content:" ";
+		display:flex;
+		height:0;
+		clear:both;
+	}
+}
